@@ -43,4 +43,7 @@ export default {
 .green {
     background: green;
 }
+.skyblue {
+    background: skyblue;
+}
 </style>
