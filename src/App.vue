@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Task :data="value"/>
+        <Task :data="value" />
     </div>
 </template>
 

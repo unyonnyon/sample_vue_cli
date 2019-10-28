@@ -1,13 +1,15 @@
 <template>
-    <div class="row">
-        <div class="col-4 orange">
-            <p>{{data.a}}</p>
-        </div>
-        <div class="col-4 orangered">
-            <p>{{data.b}}</p>
-        </div>
-        <div class="col-4 green">
-            <p>{{data.c}}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 orange">
+                <p>{{data.a}}</p>
+            </div>
+            <div class="col-4 orangered">
+                <p>{{data.b}}</p>
+            </div>
+            <div class="col-4 green">
+                <p>{{data.c}}</p>
+            </div>
         </div>
     </div>
 </template>
@@ -22,10 +24,10 @@ export default {
     data: function() {
         return { myname: "" };
     },
-    mounted: function(){
+    mounted: function() {
         console.log("mounted!!");
     },
-    created: function(){
+    created: function() {
         console.log("created!!");
     }
 };
